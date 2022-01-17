@@ -1,6 +1,8 @@
-module github.com/josephspurrier/go-prompt
+module github.com/c-bata/go-prompt
 
 go 1.14
+
+replace github.com/c-bata/go-prompt  => github.com/josephspurrier/go-prompt master
 
 require (
 	github.com/mattn/go-colorable v0.1.7
